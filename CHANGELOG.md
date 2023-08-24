@@ -1,5 +1,6 @@
 ## 3.0.0-alpha.2
 * msal ios upgrade from `1.2.0` to `1.2.15`
+* msal android upgrade from `4.0.2` to `4.7.0`
 
 ## 2.1.0
 * msal android bumpup to 4.0.0. ``Note:`` add `handle_null_taskaffinity: false` to msal_default_config.json
