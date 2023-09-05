@@ -1,3 +1,6 @@
+## 3.0.0-beta.1
+* changes from @Muljin
+
 ## 3.0.0-alpha.2
 * msal ios upgrade from `1.2.0` to `1.2.15`
 * msal android upgrade from `4.0.2` to `4.7.0`
