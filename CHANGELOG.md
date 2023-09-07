@@ -1,3 +1,6 @@
+## 3.0.0-beta.5
+* Replace old package name 
+
 ## 3.0.0-beta.4
 * Update ios podspec file
 
