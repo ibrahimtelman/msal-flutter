@@ -1,9 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:msal_flutter_tlmn/src/exceptions/msal_user_interaction_required.dart';
 
-import '../msal_flutter.dart';
+import '../msal_flutter_tlmn.dart';
 import 'exceptions/msal_scope_error_exception.dart';
 
 class MSALPublicClientApplication {
