@@ -1,4 +1,7 @@
 ## 3.0.0-beta.3
+* Update ios podspec file
+
+## 3.0.0-beta.3
 * fixed typo
 
 ## 3.0.0-beta.2

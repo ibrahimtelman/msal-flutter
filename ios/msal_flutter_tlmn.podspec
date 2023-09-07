@@ -2,8 +2,8 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'msal_flutter'
-  s.version          = '1.0.3'
+  s.name             = 'msal_flutter_tlmn'
+  s.version          = '1.0.4'
   s.summary          = 'MSAL Flutter Wrapper'
   s.description      = <<-DESC
 A new wrapper plugin around MSAL.
