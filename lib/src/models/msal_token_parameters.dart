@@ -1,4 +1,4 @@
-import 'package:msal_flutter/src/models/authority.dart';
+import 'package:msal_flutter_tlmn/src/models/authority.dart';
 
 abstract class MSALTokenParameters {
   List<String> scopes;

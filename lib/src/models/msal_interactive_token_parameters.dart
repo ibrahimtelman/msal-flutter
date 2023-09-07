@@ -1,6 +1,5 @@
-
-import 'package:msal_flutter/src/models/msal_token_parameters.dart';
-import 'package:msal_flutter/src/utility/extensions/map_cleanup_extension.dart';
+import 'package:msal_flutter_tlmn/src/models/msal_token_parameters.dart';
+import 'package:msal_flutter_tlmn/src/utility/extensions/map_cleanup_extension.dart';
 
 import 'msal_prompt_type.dart';
 

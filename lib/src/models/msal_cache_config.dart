@@ -1,4 +1,4 @@
-import 'package:msal_flutter/src/utility/extensions/map_cleanup_extension.dart';
+import 'package:msal_flutter_tlmn/src/utility/extensions/map_cleanup_extension.dart';
 
 class MSALCacheConfig {
   String? keychainSharingGroup;

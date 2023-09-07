@@ -1,4 +1,4 @@
-import 'package:msal_flutter/src/models/msal_account.dart';
+import 'package:msal_flutter_tlmn/src/models/msal_account.dart';
 
 import 'msal_tenant_profile.dart';
 

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:developer';
 import 'dart:io' show Platform;
 import 'package:flutter/services.dart';
-import 'package:msal_flutter/src/exceptions/msal_scope_error_exception.dart';
+import 'package:msal_flutter_tlmn/src/exceptions/msal_scope_error_exception.dart';
 import 'exceptions/msal_exceptions.dart';
 
 /// Represents a PublicClientApplication used to authenticate using the implicit flow
@@ -86,7 +86,7 @@ class PublicClientApplication {
   }
 
   /// Acquire a token interactively for the given [scopes]
-  Future<List<Map<String,dynamic>>> loadAccounts() async {
+  Future<List<Map<String, dynamic>>> loadAccounts() async {
     //create the arguments
     var res = <String, dynamic>{};
 

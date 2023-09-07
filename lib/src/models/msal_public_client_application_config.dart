@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:msal_flutter/src/models/authority.dart';
-import 'package:msal_flutter/src/models/msal_android_config.dart';
-import 'package:msal_flutter/src/utility/extensions/map_cleanup_extension.dart';
+import 'package:msal_flutter_tlmn/src/models/authority.dart';
+import 'package:msal_flutter_tlmn/src/models/msal_android_config.dart';
+import 'package:msal_flutter_tlmn/src/utility/extensions/map_cleanup_extension.dart';
 
 import 'msal_cache_config.dart';
 import 'msal_slice_config.dart';
