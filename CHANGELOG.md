@@ -1,3 +1,6 @@
+## 3.0.1
+* Fix: Changed date format handling for IOS for devices after IOS 17.0.2 update changes
+
 ## 3.0.0-beta.5
 * Replace old package name 
 
