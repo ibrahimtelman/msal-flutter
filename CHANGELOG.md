@@ -1,3 +1,6 @@
+## 3.0.2
+* Fix: date format handling for IOS for devices after IOS 17.0.2 update changes with miliseconds change
+
 ## 3.0.1
 * Fix: Changed date format handling for IOS for devices after IOS 17.0.2 update changes
 

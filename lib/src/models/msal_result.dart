@@ -38,7 +38,7 @@ class MSALResult {
           authorizationHeader: map['authorizationHeader'] ?? '',
           correlationId: map['correlationId'] ?? '',
           expiresOn: map['expiresOn'] != null
-              ? DateTime.parse(map['expiresOn'])
+              ? DateTime.fromMillisecondsSinceEpoch(map['expiresOn'])
               : null,
           extendedLifeTimeToken: map['extendedLifeTimeToken'],
           idToken: map['idToken'],

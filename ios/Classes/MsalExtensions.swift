@@ -263,15 +263,12 @@ extension MSALAccountEnumerationParameters {
 extension MSALResult {
 
     func toDict() -> [String: Any?] {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
-
         return ["accessToken": accessToken, "account": account.nsDictionary,
                 "authenticationScheme": authenticationScheme,
                 "authority": authority.url.absoluteString,
                 "authorizationHeader": authorizationHeader,
                 "correlationId": correlationId.uuidString,
-                "expiresOn": expiresOn != nil ? dateFormatter.string(from: expiresOn!) : nil,
+                "expiresOn": expiresOn != nil ? Int64((expiresOn!.timeIntervalSince1970 * 1000.0).rounded()) : nil,
                 "extendedLifeTimeToken": extendedLifeTimeToken,
                 "idToken": idToken,
                 "scopes": scopes,
