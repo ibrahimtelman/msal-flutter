@@ -17,9 +17,16 @@ class MSALTokenParametersParser {
                     "scopes" -> builder.withScopes(entry.value as MutableList<String>)
                     "correlationId"-> builder.withCorrelationId( UUID.fromString(entry.value as String))
                     "authority"-> builder.fromAuthority(entry.value as String)
-                    "extraQueryParameters" -> builder.withAuthorizationQueryStringParameters(
-                        entry.value as MutableList<MutableMap.MutableEntry<String, String>>?
-                    )
+                    "extraQueryParameters" -> {
+                        try {
+                            builder.withAuthorizationQueryStringParameters(
+                                (entry.value as HashMap<String, String>).entries.toList()
+                            )
+                        } catch (e: Exception) {
+                            // Ignore exception or log it if necessary
+                            println("Exception occurred: ${e.message}")
+                        }
+                    }
                     "loginHint" -> builder.withLoginHint(entry.value as String?)
                     "extraScopesToConsent" ->builder.withOtherScopesToAuthorize(entry.value as MutableList<String>?)
                     "prompt"-> builder.withPrompt(parsePrompt(entry.value as String))

@@ -1,3 +1,6 @@
+## 3.0.3
+* Fix: android extraQueryParameters support added 
+
 ## 3.0.2
 * Fix: date format handling for IOS for devices after IOS 17.0.2 update changes with miliseconds change
 

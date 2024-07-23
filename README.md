@@ -1,10 +1,8 @@
 We are looking for start ups to work with for launching our new productised IAM and user management system which greatly simplifies adding user authentication to your app and includes additional functionality for user management and analytics. To find out more or sign up please visit [https://www.joopie.co](https://www.joopie.co "Joopie") and let us know you came from this repo.
 
-## IMPORTANT ANNOUNCEMENT
-This package comes as is. Unfortunately we do not have the resources to offer free support, help, or review any PRs. Please feel free to fork or use this package in anyway you like. For paid support options please email us at info@muljin.com.
-
-## Version 2.0.0
-Version 2.0.0+ have moved to nullable and a non-nullable version will not be available. Please ensure all packages you use support nullable and you have updated to the latest version of stable flutter.
+## Version 3.0.0
+We have updated codebase to dart 3 and changed IOS refresh token handling as well. Forked the library from original and changed version number to 3.0.0 afterwards.
+Original branch is msal_flutter, however we are not using it for the time being.
 
 ### Upgrade guide
 To upgrade older projects to V2, make sure to do the following:
