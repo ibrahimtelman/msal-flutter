@@ -1,6 +1,6 @@
-import 'package:msal_flutter_tlmn/src/models/ios_modal_presentation_style.dart';
-import 'package:msal_flutter_tlmn/src/models/msal_webview_type.dart';
-import 'package:msal_flutter_tlmn/src/utility/extensions/map_cleanup_extension.dart';
+import 'package:msal_flutter_auth/src/models/ios_modal_presentation_style.dart';
+import 'package:msal_flutter_auth/src/models/msal_webview_type.dart';
+import 'package:msal_flutter_auth/src/utility/extensions/map_cleanup_extension.dart';
 
 class MSALWebviewParameters {
   /// A specific webView type for the interactive authentication flow. By default, it will be set to MSALGlobalConfig.defaultWebviewType.

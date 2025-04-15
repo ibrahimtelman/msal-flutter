@@ -1,8 +1,10 @@
 import 'dart:async';
 import 'dart:developer';
 import 'dart:io' show Platform;
+
 import 'package:flutter/services.dart';
-import 'package:msal_flutter_tlmn/src/exceptions/msal_scope_error_exception.dart';
+import 'package:msal_flutter_auth/src/exceptions/msal_scope_error_exception.dart';
+
 import 'exceptions/msal_exceptions.dart';
 
 /// Represents a PublicClientApplication used to authenticate using the implicit flow

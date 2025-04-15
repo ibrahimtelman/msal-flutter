@@ -1,9 +1,9 @@
-import 'package:msal_flutter_tlmn/src/models/android_account_mode.dart';
-import 'package:msal_flutter_tlmn/src/models/android_logger_config.dart';
-import 'package:msal_flutter_tlmn/src/models/authorization_agent.dart';
-import 'package:msal_flutter_tlmn/src/models/http_configuration.dart';
-import 'package:msal_flutter_tlmn/src/models/msal_environment.dart';
-import 'package:msal_flutter_tlmn/src/models/safe_browser.dart';
+import 'package:msal_flutter_auth/src/models/android_account_mode.dart';
+import 'package:msal_flutter_auth/src/models/android_logger_config.dart';
+import 'package:msal_flutter_auth/src/models/authorization_agent.dart';
+import 'package:msal_flutter_auth/src/models/http_configuration.dart';
+import 'package:msal_flutter_auth/src/models/msal_environment.dart';
+import 'package:msal_flutter_auth/src/models/safe_browser.dart';
 
 import 'authority.dart';
 

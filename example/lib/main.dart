@@ -3,7 +3,7 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:msal_flutter_tlmn/msal_flutter_tlmn.dart';
+import 'package:msal_flutter_auth/msal_flutter_auth.dart';
 
 void main() => runApp(MyApp());
 

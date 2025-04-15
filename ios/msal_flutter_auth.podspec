@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'msal_flutter_tlmn'
+  s.name             = 'msal_flutter_auth'
   s.version          = '1.0.4'
   s.summary          = 'MSAL Flutter Wrapper'
   s.description      = <<-DESC
